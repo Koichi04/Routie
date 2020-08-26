@@ -1,0 +1,34 @@
+PODS:
+  - BEMCheckBox (1.4.1)
+  - PKHUD (5.3.0)
+  - RAMAnimatedTabBarController (5.2.0)
+  - Realm (5.2.0):
+    - Realm/Headers (= 5.2.0)
+  - Realm/Headers (5.2.0)
+  - RealmSwift (5.2.0):
+    - Realm (= 5.2.0)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - PKHUD (~> 5.0)
+  - RAMAnimatedTabBarController
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - BEMCheckBox
+    - PKHUD
+    - RAMAnimatedTabBarController
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
+  RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
+
+PODFILE CHECKSUM: 30b6233f69d40d98b5c7be8c4b969a9dc2082e7a
+
+COCOAPODS: 1.9.1

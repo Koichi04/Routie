@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6709568824892A0900961F9C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709568724892A0900961F9C /* MapViewController.swift */; };
+		6722516E24924BB000BECCEB /* MyRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722516D24924BB000BECCEB /* MyRouteViewController.swift */; };
+		6722517424925D1400BECCEB /* MyRouteData3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722517324925D1400BECCEB /* MyRouteData3.swift */; };
+		672342C2248782EC00C2BA44 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672342C1248782EC00C2BA44 /* Data.swift */; };
+		672342C72488E94000C2BA44 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672342C62488E94000C2BA44 /* MapKit.framework */; };
+		678D812E24A315AC003A7C1F /* JR秋葉原駅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D812D24A315AC003A7C1F /* JR秋葉原駅.jpg */; };
+		678D813024A315B9003A7C1F /* 秋葉原ラジオ会館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D812F24A315B9003A7C1F /* 秋葉原ラジオ会館.jpg */; };
+		678D813224A315C4003A7C1F /* 神田明神.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D813124A315C4003A7C1F /* 神田明神.jpg */; };
+		678D813424A315D7003A7C1F /* 秋葉原UDX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D813324A315D6003A7C1F /* 秋葉原UDX.jpg */; };
+		678D813624A315DD003A7C1F /* マーチエキュート.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D813524A315DD003A7C1F /* マーチエキュート.jpg */; };
+		678D813824A315F4003A7C1F /* アニメイト秋葉原本館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D813724A315F4003A7C1F /* アニメイト秋葉原本館.jpg */; };
+		678D813C24A31625003A7C1F /* 駿河屋アニメ・ホビー館.jp2 in Resources */ = {isa = PBXBuildFile; fileRef = 678D813B24A31625003A7C1F /* 駿河屋アニメ・ホビー館.jp2 */; };
+		678D813E24A31634003A7C1F /* コトブキヤ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D813D24A31634003A7C1F /* コトブキヤ.jpg */; };
+		678D814024A31645003A7C1F /* アイドルマスターオフィシャル.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D813F24A31645003A7C1F /* アイドルマスターオフィシャル.jpg */; };
+		678D814224A3165D003A7C1F /* ハロー！プロジェクト オフィシャルショップ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D814124A3165D003A7C1F /* ハロー！プロジェクト オフィシャルショップ.jpg */; };
+		678D814824A31692003A7C1F /* カフェ メイリッシュ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D814724A31692003A7C1F /* カフェ メイリッシュ.jpg */; };
+		678D814A24A3169E003A7C1F /* キュアメイドカフェ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D814924A3169E003A7C1F /* キュアメイドカフェ.jpg */; };
+		678D814C24A316AC003A7C1F /* 私設図書館 シャッツキステ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D814B24A316AC003A7C1F /* 私設図書館 シャッツキステ.jpg */; };
+		678D814F24A316CF003A7C1F /* セガ 秋葉原4号館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D814D24A316CF003A7C1F /* セガ 秋葉原4号館.jpg */; };
+		678D815024A316CF003A7C1F /* セガ 秋葉原２号館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D814E24A316CF003A7C1F /* セガ 秋葉原２号館.jpg */; };
+		678D815424A316F0003A7C1F /* スーパーポテト 秋葉原店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815124A316EF003A7C1F /* スーパーポテト 秋葉原店.jpg */; };
+		678D815524A316F0003A7C1F /* 東京レジャーランド 秋葉原店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815224A316EF003A7C1F /* 東京レジャーランド 秋葉原店.jpg */; };
+		678D815624A316F0003A7C1F /* 秋葉原Hey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815324A316EF003A7C1F /* 秋葉原Hey.jpg */; };
+		678D815824A31765003A7C1F /* AKIHABARAゲーマーズ本店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815724A31765003A7C1F /* AKIHABARAゲーマーズ本店.jpg */; };
+		678D815D24A31778003A7C1F /* まんだらけ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815924A31776003A7C1F /* まんだらけ.jpg */; };
+		678D815E24A31778003A7C1F /* コミックとらのあな 秋葉原店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815A24A31777003A7C1F /* コミックとらのあな 秋葉原店.jpg */; };
+		678D815F24A31778003A7C1F /* 書泉ブックタワー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815B24A31777003A7C1F /* 書泉ブックタワー.jpg */; };
+		678D816024A31778003A7C1F /* メロンブックス秋葉原1号店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D815C24A31777003A7C1F /* メロンブックス秋葉原1号店.jpg */; };
+		678D816224A3178F003A7C1F /* モーゼスさんのケバブ AKIBA STYLE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D816124A3178F003A7C1F /* モーゼスさんのケバブ AKIBA STYLE.jpg */; };
+		678D816424A31796003A7C1F /* 秋葉原最北端の肉酒場 ミナトグリル1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D816324A31796003A7C1F /* 秋葉原最北端の肉酒場 ミナトグリル1.jpg */; };
+		678D816624A317A6003A7C1F /* Pasta Bar MAKITA1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D816524A317A6003A7C1F /* Pasta Bar MAKITA1.jpg */; };
+		678D816824A317AE003A7C1F /* 秋葉原つけ麺 油そば 楽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D816724A317AE003A7C1F /* 秋葉原つけ麺 油そば 楽.jpg */; };
+		678D816A24A317B7003A7C1F /* とんこつラーメン 博多風龍 秋葉原総本店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678D816924A317B7003A7C1F /* とんこつラーメン 博多風龍 秋葉原総本店.jpg */; };
+		678D817224A3557F003A7C1F /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D817124A3557F003A7C1F /* PlaceViewController.swift */; };
+		67A781B0247E9EB90002E430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A781AF247E9EB90002E430 /* AppDelegate.swift */; };
+		67A781B2247E9EB90002E430 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A781B1247E9EB90002E430 /* SceneDelegate.swift */; };
+		67A781B4247E9EB90002E430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A781B3247E9EB90002E430 /* ViewController.swift */; };
+		67A781B7247E9EB90002E430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A781B5247E9EB90002E430 /* Main.storyboard */; };
+		67A781B9247E9EC70002E430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A781B8247E9EC70002E430 /* Assets.xcassets */; };
+		67A781BC247E9EC70002E430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A781BA247E9EC70002E430 /* LaunchScreen.storyboard */; };
+		67AE321B24829C98007B010D /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE321924829C98007B010D /* PlaceTableViewCell.swift */; };
+		67AE321C24829C98007B010D /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67AE321A24829C98007B010D /* PlaceTableViewCell.xib */; };
+		67B9E2982497538F00D4C2AA /* MyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B9E2972497538F00D4C2AA /* MyMapViewController.swift */; };
+		67CFE93724A5BB3000AF9120 /* アキバ絶対領域a.d.2045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67CFE93524A5BB2F00AF9120 /* アキバ絶対領域a.d.2045.jpg */; };
+		67CFE93824A5BB3000AF9120 /* めいどりーみん秋葉原中央通り店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67CFE93624A5BB3000AF9120 /* めいどりーみん秋葉原中央通り店.jpg */; };
+		67DDA3B724A4DB36004B6F64 /* icons8-ホーム-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 67DDA3B524A4DB36004B6F64 /* icons8-ホーム-30.png */; };
+		67DDA3B924A4DB82004B6F64 /* icons8-道筋と地図-30-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67DDA3B824A4DB82004B6F64 /* icons8-道筋と地図-30-2.png */; };
+		67EC612A24BDE648001C3377 /* 背景画像１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67EC612924BDE647001C3377 /* 背景画像１.jpg */; };
+		67EC612E24BE14DD001C3377 /* 羅針盤 背景画像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67EC612D24BE14DC001C3377 /* 羅針盤 背景画像.jpg */; };
+		67EC613024BE1779001C3377 /* 夜の秋葉原 messed up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67EC612F24BE1779001C3377 /* 夜の秋葉原 messed up.jpg */; };
+		936C2B583E2DA8594BBD2582 /* Pods_AkibaDirection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD26725C90431CC1A99E231A /* Pods_AkibaDirection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30C7C326803D4504B9795107 /* Pods-AkibaDirection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkibaDirection.debug.xcconfig"; path = "Target Support Files/Pods-AkibaDirection/Pods-AkibaDirection.debug.xcconfig"; sourceTree = "<group>"; };
+		6709568724892A0900961F9C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6722516D24924BB000BECCEB /* MyRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRouteViewController.swift; sourceTree = "<group>"; };
+		6722517324925D1400BECCEB /* MyRouteData3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRouteData3.swift; sourceTree = "<group>"; };
+		672342C1248782EC00C2BA44 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		672342C62488E94000C2BA44 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		678D812D24A315AC003A7C1F /* JR秋葉原駅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "JR秋葉原駅.jpg"; sourceTree = "<group>"; };
+		678D812F24A315B9003A7C1F /* 秋葉原ラジオ会館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秋葉原ラジオ会館.jpg"; sourceTree = "<group>"; };
+		678D813124A315C4003A7C1F /* 神田明神.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "神田明神.jpg"; sourceTree = "<group>"; };
+		678D813324A315D6003A7C1F /* 秋葉原UDX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秋葉原UDX.jpg"; sourceTree = "<group>"; };
+		678D813524A315DD003A7C1F /* マーチエキュート.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "マーチエキュート.jpg"; sourceTree = "<group>"; };
+		678D813724A315F4003A7C1F /* アニメイト秋葉原本館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アニメイト秋葉原本館.jpg"; sourceTree = "<group>"; };
+		678D813B24A31625003A7C1F /* 駿河屋アニメ・ホビー館.jp2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "駿河屋アニメ・ホビー館.jp2"; sourceTree = "<group>"; };
+		678D813D24A31634003A7C1F /* コトブキヤ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コトブキヤ.jpg"; sourceTree = "<group>"; };
+		678D813F24A31645003A7C1F /* アイドルマスターオフィシャル.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アイドルマスターオフィシャル.jpg"; sourceTree = "<group>"; };
+		678D814124A3165D003A7C1F /* ハロー！プロジェクト オフィシャルショップ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ハロー！プロジェクト オフィシャルショップ.jpg"; sourceTree = "<group>"; };
+		678D814724A31692003A7C1F /* カフェ メイリッシュ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "カフェ メイリッシュ.jpg"; sourceTree = "<group>"; };
+		678D814924A3169E003A7C1F /* キュアメイドカフェ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "キュアメイドカフェ.jpg"; sourceTree = "<group>"; };
+		678D814B24A316AC003A7C1F /* 私設図書館 シャッツキステ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "私設図書館 シャッツキステ.jpg"; sourceTree = "<group>"; };
+		678D814D24A316CF003A7C1F /* セガ 秋葉原4号館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "セガ 秋葉原4号館.jpg"; sourceTree = "<group>"; };
+		678D814E24A316CF003A7C1F /* セガ 秋葉原２号館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "セガ 秋葉原２号館.jpg"; sourceTree = "<group>"; };
+		678D815124A316EF003A7C1F /* スーパーポテト 秋葉原店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "スーパーポテト 秋葉原店.jpg"; sourceTree = "<group>"; };
+		678D815224A316EF003A7C1F /* 東京レジャーランド 秋葉原店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "東京レジャーランド 秋葉原店.jpg"; sourceTree = "<group>"; };
+		678D815324A316EF003A7C1F /* 秋葉原Hey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秋葉原Hey.jpg"; sourceTree = "<group>"; };
+		678D815724A31765003A7C1F /* AKIHABARAゲーマーズ本店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AKIHABARAゲーマーズ本店.jpg"; sourceTree = "<group>"; };
+		678D815924A31776003A7C1F /* まんだらけ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "まんだらけ.jpg"; sourceTree = "<group>"; };
+		678D815A24A31777003A7C1F /* コミックとらのあな 秋葉原店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コミックとらのあな 秋葉原店.jpg"; sourceTree = "<group>"; };
+		678D815B24A31777003A7C1F /* 書泉ブックタワー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "書泉ブックタワー.jpg"; sourceTree = "<group>"; };
+		678D815C24A31777003A7C1F /* メロンブックス秋葉原1号店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "メロンブックス秋葉原1号店.jpg"; sourceTree = "<group>"; };
+		678D816124A3178F003A7C1F /* モーゼスさんのケバブ AKIBA STYLE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "モーゼスさんのケバブ AKIBA STYLE.jpg"; sourceTree = "<group>"; };
+		678D816324A31796003A7C1F /* 秋葉原最北端の肉酒場 ミナトグリル1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秋葉原最北端の肉酒場 ミナトグリル1.jpg"; sourceTree = "<group>"; };
+		678D816524A317A6003A7C1F /* Pasta Bar MAKITA1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pasta Bar MAKITA1.jpg"; sourceTree = "<group>"; };
+		678D816724A317AE003A7C1F /* 秋葉原つけ麺 油そば 楽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秋葉原つけ麺 油そば 楽.jpg"; sourceTree = "<group>"; };
+		678D816924A317B7003A7C1F /* とんこつラーメン 博多風龍 秋葉原総本店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "とんこつラーメン 博多風龍 秋葉原総本店.jpg"; sourceTree = "<group>"; };
+		678D817124A3557F003A7C1F /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		67A781AC247E9EB90002E430 /* RoutieAkiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutieAkiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A781AF247E9EB90002E430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A781B1247E9EB90002E430 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67A781B3247E9EB90002E430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A781B6247E9EB90002E430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A781B8247E9EC70002E430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A781BB247E9EC70002E430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67A781BD247E9EC70002E430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AE321924829C98007B010D /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		67AE321A24829C98007B010D /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
+		67B9E2972497538F00D4C2AA /* MyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapViewController.swift; sourceTree = "<group>"; };
+		67CFE93524A5BB2F00AF9120 /* アキバ絶対領域a.d.2045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アキバ絶対領域a.d.2045.jpg"; sourceTree = "<group>"; };
+		67CFE93624A5BB3000AF9120 /* めいどりーみん秋葉原中央通り店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "めいどりーみん秋葉原中央通り店.jpg"; sourceTree = "<group>"; };
+		67DDA3B524A4DB36004B6F64 /* icons8-ホーム-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ホーム-30.png"; sourceTree = "<group>"; };
+		67DDA3B824A4DB82004B6F64 /* icons8-道筋と地図-30-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-道筋と地図-30-2.png"; sourceTree = "<group>"; };
+		67EC612924BDE647001C3377 /* 背景画像１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景画像１.jpg"; sourceTree = "<group>"; };
+		67EC612D24BE14DC001C3377 /* 羅針盤 背景画像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "羅針盤 背景画像.jpg"; sourceTree = "<group>"; };
+		67EC612F24BE1779001C3377 /* 夜の秋葉原 messed up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夜の秋葉原 messed up.jpg"; sourceTree = "<group>"; };
+		AD26725C90431CC1A99E231A /* Pods_AkibaDirection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkibaDirection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95493639234E0E0E846BBD7 /* Pods-AkibaDirection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkibaDirection.release.xcconfig"; path = "Target Support Files/Pods-AkibaDirection/Pods-AkibaDirection.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A781A9247E9EB90002E430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672342C72488E94000C2BA44 /* MapKit.framework in Frameworks */,
+				936C2B583E2DA8594BBD2582 /* Pods_AkibaDirection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A781A3247E9EB90002E430 = {
+			isa = PBXGroup;
+			children = (
+				67A781AE247E9EB90002E430 /* AkibaDirection */,
+				67A781AD247E9EB90002E430 /* Products */,
+				C4DE3F9697C6E1B3F531D5FF /* Pods */,
+				B8946525C2E112E376B79C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67A781AD247E9EB90002E430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A781AC247E9EB90002E430 /* RoutieAkiba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A781AE247E9EB90002E430 /* AkibaDirection */ = {
+			isa = PBXGroup;
+			children = (
+				67AE321D2482BE7A007B010D /* Images */,
+				67A781AF247E9EB90002E430 /* AppDelegate.swift */,
+				67A781B1247E9EB90002E430 /* SceneDelegate.swift */,
+				672342C1248782EC00C2BA44 /* Data.swift */,
+				6722517324925D1400BECCEB /* MyRouteData3.swift */,
+				67A781B3247E9EB90002E430 /* ViewController.swift */,
+				678D817124A3557F003A7C1F /* PlaceViewController.swift */,
+				6709568724892A0900961F9C /* MapViewController.swift */,
+				6722516D24924BB000BECCEB /* MyRouteViewController.swift */,
+				67B9E2972497538F00D4C2AA /* MyMapViewController.swift */,
+				67AE321A24829C98007B010D /* PlaceTableViewCell.xib */,
+				67AE321924829C98007B010D /* PlaceTableViewCell.swift */,
+				67A781B5247E9EB90002E430 /* Main.storyboard */,
+				67A781B8247E9EC70002E430 /* Assets.xcassets */,
+				67A781BA247E9EC70002E430 /* LaunchScreen.storyboard */,
+				67A781BD247E9EC70002E430 /* Info.plist */,
+			);
+			path = AkibaDirection;
+			sourceTree = "<group>";
+		};
+		67AE321D2482BE7A007B010D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				67EC612D24BE14DC001C3377 /* 羅針盤 背景画像.jpg */,
+				67EC612924BDE647001C3377 /* 背景画像１.jpg */,
+				67DDA3B524A4DB36004B6F64 /* icons8-ホーム-30.png */,
+				67DDA3B824A4DB82004B6F64 /* icons8-道筋と地図-30-2.png */,
+				678D812D24A315AC003A7C1F /* JR秋葉原駅.jpg */,
+				678D812F24A315B9003A7C1F /* 秋葉原ラジオ会館.jpg */,
+				678D813124A315C4003A7C1F /* 神田明神.jpg */,
+				678D813324A315D6003A7C1F /* 秋葉原UDX.jpg */,
+				678D813524A315DD003A7C1F /* マーチエキュート.jpg */,
+				678D813724A315F4003A7C1F /* アニメイト秋葉原本館.jpg */,
+				678D813B24A31625003A7C1F /* 駿河屋アニメ・ホビー館.jp2 */,
+				678D813D24A31634003A7C1F /* コトブキヤ.jpg */,
+				678D813F24A31645003A7C1F /* アイドルマスターオフィシャル.jpg */,
+				678D814124A3165D003A7C1F /* ハロー！プロジェクト オフィシャルショップ.jpg */,
+				67CFE93624A5BB3000AF9120 /* めいどりーみん秋葉原中央通り店.jpg */,
+				67CFE93524A5BB2F00AF9120 /* アキバ絶対領域a.d.2045.jpg */,
+				678D814724A31692003A7C1F /* カフェ メイリッシュ.jpg */,
+				678D814924A3169E003A7C1F /* キュアメイドカフェ.jpg */,
+				678D814B24A316AC003A7C1F /* 私設図書館 シャッツキステ.jpg */,
+				678D814E24A316CF003A7C1F /* セガ 秋葉原２号館.jpg */,
+				678D814D24A316CF003A7C1F /* セガ 秋葉原4号館.jpg */,
+				678D815124A316EF003A7C1F /* スーパーポテト 秋葉原店.jpg */,
+				678D815324A316EF003A7C1F /* 秋葉原Hey.jpg */,
+				678D815224A316EF003A7C1F /* 東京レジャーランド 秋葉原店.jpg */,
+				678D815724A31765003A7C1F /* AKIHABARAゲーマーズ本店.jpg */,
+				678D815A24A31777003A7C1F /* コミックとらのあな 秋葉原店.jpg */,
+				678D815924A31776003A7C1F /* まんだらけ.jpg */,
+				678D815C24A31777003A7C1F /* メロンブックス秋葉原1号店.jpg */,
+				678D815B24A31777003A7C1F /* 書泉ブックタワー.jpg */,
+				678D816124A3178F003A7C1F /* モーゼスさんのケバブ AKIBA STYLE.jpg */,
+				678D816324A31796003A7C1F /* 秋葉原最北端の肉酒場 ミナトグリル1.jpg */,
+				678D816524A317A6003A7C1F /* Pasta Bar MAKITA1.jpg */,
+				678D816724A317AE003A7C1F /* 秋葉原つけ麺 油そば 楽.jpg */,
+				678D816924A317B7003A7C1F /* とんこつラーメン 博多風龍 秋葉原総本店.jpg */,
+				67EC612F24BE1779001C3377 /* 夜の秋葉原 messed up.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B8946525C2E112E376B79C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672342C62488E94000C2BA44 /* MapKit.framework */,
+				AD26725C90431CC1A99E231A /* Pods_AkibaDirection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4DE3F9697C6E1B3F531D5FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30C7C326803D4504B9795107 /* Pods-AkibaDirection.debug.xcconfig */,
+				E95493639234E0E0E846BBD7 /* Pods-AkibaDirection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A781AB247E9EB90002E430 /* AkibaDirection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A781C0247E9EC70002E430 /* Build configuration list for PBXNativeTarget "AkibaDirection" */;
+			buildPhases = (
+				9F5AE27A1CD5A8CBD2CA513A /* [CP] Check Pods Manifest.lock */,
+				67A781A8247E9EB90002E430 /* Sources */,
+				67A781A9247E9EB90002E430 /* Frameworks */,
+				67A781AA247E9EB90002E430 /* Resources */,
+				AC9B5CF75B3682F8652AF42F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AkibaDirection;
+			productName = AkibaDirection;
+			productReference = 67A781AC247E9EB90002E430 /* RoutieAkiba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A781A4247E9EB90002E430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Koichi Muranaka";
+				TargetAttributes = {
+					67A781AB247E9EB90002E430 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 67A781A7247E9EB90002E430 /* Build configuration list for PBXProject "AkibaDirection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A781A3247E9EB90002E430;
+			productRefGroup = 67A781AD247E9EB90002E430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A781AB247E9EB90002E430 /* AkibaDirection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A781AA247E9EB90002E430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678D816024A31778003A7C1F /* メロンブックス秋葉原1号店.jpg in Resources */,
+				678D816824A317AE003A7C1F /* 秋葉原つけ麺 油そば 楽.jpg in Resources */,
+				678D815D24A31778003A7C1F /* まんだらけ.jpg in Resources */,
+				678D816624A317A6003A7C1F /* Pasta Bar MAKITA1.jpg in Resources */,
+				678D814F24A316CF003A7C1F /* セガ 秋葉原4号館.jpg in Resources */,
+				678D814024A31645003A7C1F /* アイドルマスターオフィシャル.jpg in Resources */,
+				67A781BC247E9EC70002E430 /* LaunchScreen.storyboard in Resources */,
+				67EC612A24BDE648001C3377 /* 背景画像１.jpg in Resources */,
+				67A781B9247E9EC70002E430 /* Assets.xcassets in Resources */,
+				67DDA3B924A4DB82004B6F64 /* icons8-道筋と地図-30-2.png in Resources */,
+				678D816424A31796003A7C1F /* 秋葉原最北端の肉酒場 ミナトグリル1.jpg in Resources */,
+				67CFE93824A5BB3000AF9120 /* めいどりーみん秋葉原中央通り店.jpg in Resources */,
+				678D813224A315C4003A7C1F /* 神田明神.jpg in Resources */,
+				678D816A24A317B7003A7C1F /* とんこつラーメン 博多風龍 秋葉原総本店.jpg in Resources */,
+				678D814A24A3169E003A7C1F /* キュアメイドカフェ.jpg in Resources */,
+				67A781B7247E9EB90002E430 /* Main.storyboard in Resources */,
+				678D814224A3165D003A7C1F /* ハロー！プロジェクト オフィシャルショップ.jpg in Resources */,
+				678D815624A316F0003A7C1F /* 秋葉原Hey.jpg in Resources */,
+				678D812E24A315AC003A7C1F /* JR秋葉原駅.jpg in Resources */,
+				678D813624A315DD003A7C1F /* マーチエキュート.jpg in Resources */,
+				678D815E24A31778003A7C1F /* コミックとらのあな 秋葉原店.jpg in Resources */,
+				678D815F24A31778003A7C1F /* 書泉ブックタワー.jpg in Resources */,
+				678D813824A315F4003A7C1F /* アニメイト秋葉原本館.jpg in Resources */,
+				678D813C24A31625003A7C1F /* 駿河屋アニメ・ホビー館.jp2 in Resources */,
+				67EC612E24BE14DD001C3377 /* 羅針盤 背景画像.jpg in Resources */,
+				678D813424A315D7003A7C1F /* 秋葉原UDX.jpg in Resources */,
+				678D815024A316CF003A7C1F /* セガ 秋葉原２号館.jpg in Resources */,
+				67EC613024BE1779001C3377 /* 夜の秋葉原 messed up.jpg in Resources */,
+				678D815424A316F0003A7C1F /* スーパーポテト 秋葉原店.jpg in Resources */,
+				678D813024A315B9003A7C1F /* 秋葉原ラジオ会館.jpg in Resources */,
+				678D815524A316F0003A7C1F /* 東京レジャーランド 秋葉原店.jpg in Resources */,
+				67CFE93724A5BB3000AF9120 /* アキバ絶対領域a.d.2045.jpg in Resources */,
+				67DDA3B724A4DB36004B6F64 /* icons8-ホーム-30.png in Resources */,
+				678D815824A31765003A7C1F /* AKIHABARAゲーマーズ本店.jpg in Resources */,
+				678D813E24A31634003A7C1F /* コトブキヤ.jpg in Resources */,
+				678D814824A31692003A7C1F /* カフェ メイリッシュ.jpg in Resources */,
+				67AE321C24829C98007B010D /* PlaceTableViewCell.xib in Resources */,
+				678D816224A3178F003A7C1F /* モーゼスさんのケバブ AKIBA STYLE.jpg in Resources */,
+				678D814C24A316AC003A7C1F /* 私設図書館 シャッツキステ.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F5AE27A1CD5A8CBD2CA513A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AkibaDirection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9B5CF75B3682F8652AF42F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AkibaDirection/Pods-AkibaDirection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AkibaDirection/Pods-AkibaDirection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AkibaDirection/Pods-AkibaDirection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A781A8247E9EB90002E430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B9E2982497538F00D4C2AA /* MyMapViewController.swift in Sources */,
+				672342C2248782EC00C2BA44 /* Data.swift in Sources */,
+				6709568824892A0900961F9C /* MapViewController.swift in Sources */,
+				6722516E24924BB000BECCEB /* MyRouteViewController.swift in Sources */,
+				67A781B4247E9EB90002E430 /* ViewController.swift in Sources */,
+				6722517424925D1400BECCEB /* MyRouteData3.swift in Sources */,
+				67A781B0247E9EB90002E430 /* AppDelegate.swift in Sources */,
+				67A781B2247E9EB90002E430 /* SceneDelegate.swift in Sources */,
+				678D817224A3557F003A7C1F /* PlaceViewController.swift in Sources */,
+				67AE321B24829C98007B010D /* PlaceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67A781B5247E9EB90002E430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A781B6247E9EB90002E430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67A781BA247E9EC70002E430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A781BB247E9EC70002E430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A781BE247E9EC70002E430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A781BF247E9EC70002E430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A781C1247E9EC70002E430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C7C326803D4504B9795107 /* Pods-AkibaDirection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AkibaDirection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koichimuranaka.AkibaDirection;
+				PRODUCT_NAME = RoutieAkiba;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A781C2247E9EC70002E430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95493639234E0E0E846BBD7 /* Pods-AkibaDirection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AkibaDirection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koichimuranaka.AkibaDirection;
+				PRODUCT_NAME = RoutieAkiba;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A781A7247E9EB90002E430 /* Build configuration list for PBXProject "AkibaDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A781BE247E9EC70002E430 /* Debug */,
+				67A781BF247E9EC70002E430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A781C0247E9EC70002E430 /* Build configuration list for PBXNativeTarget "AkibaDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A781C1247E9EC70002E430 /* Debug */,
+				67A781C2247E9EC70002E430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A781A4247E9EB90002E430 /* Project object */;
+}
