@@ -191,19 +191,6 @@ class ViewController: UIViewController,
             
         } else {
             
-            
-            
-//           下のコピペ
-//           number = datas.count
-//
-//           for i in 0...number-1 {
-//               datas[i].selected = false
-//               datas[i].number = 0
-//           }
-//
-//           number = 0
-//           placeTableView.reloadData()
-            
             //画面遷移のコード
             performSegue(withIdentifier: "toMap", sender: nil)
             
@@ -272,7 +259,7 @@ class ViewController: UIViewController,
             PlaceTableViewCell
             //print(indexPath)
         
-        //cell.backgroundColor = UIColor(red: 1.000, green: 0.576, blue: 0.1490, alpha: 0.1)
+        
         
         
         if indexPath.section == 0 {
@@ -304,9 +291,7 @@ class ViewController: UIViewController,
             cell.akibaImageView.image = datas[indexPath.row+25].images
         }
         
-        // りつやの天才的なアイデア
-        // cell.placeNameLabel.text = datas[d].title
-        // d = d + 1
+       
         
         if indexPath.section == 0 {
             cell.checkBox.tag = indexPath.row
@@ -322,7 +307,7 @@ class ViewController: UIViewController,
             cell.checkBox.tag = indexPath.row + 25
         }
         
-        //　りつや考案
+        
         // SectionとcheckBoxの組み合わせ
         cell.checkBox.delegate = self
         
